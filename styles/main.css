@@ -1,0 +1,86 @@
+.body {
+    background-image: url(/assets/img/background-mid.jpg);
+}
+
+.section-geral{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 844px;
+    height: 100%;
+    margin: auto;
+    background-color: rgb(93, 158, 233);
+    border-radius: 10px;
+
+}
+.img {
+    width: 100%;
+}
+#main{
+    height: auto;
+}
+#add-todo{
+    background-color: rgb(206, 55, 55);
+}
+#containerCheckBox {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px;
+}
+
+.navbar {
+    height: 50px;
+}
+.check-urgente {
+    background-color: rgb(209, 62, 62);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.check-importante {
+    background-color: rgb(223, 189, 37);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.check-normal {
+    background-color: rgb(97, 167, 76);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+.todo-text {
+    color: rgb(29, 29, 112);
+    font-family: sans-serif;
+    font: bolder;
+}
+.card-body {border-color: black;}
+
+
+.iconeVermelho {
+    color: red;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.iconeAmarelo {
+    color: yellow;
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+.iconeVerde {
+    color: green;
+    background-color: green;
+    border-radius: 50px;
+}
